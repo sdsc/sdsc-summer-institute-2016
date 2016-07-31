@@ -138,3 +138,7 @@ $ git config --global core.editor "nano -w"
 
 -   Branching is just collaboration with yourself.
 -   Reformat your entire thesis without risking your progress.
+
+## Credits
+
+<https://github.com/bsmith89/guacamole>

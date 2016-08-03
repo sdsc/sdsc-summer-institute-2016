@@ -1,0 +1,4 @@
+out/*.dat
+*.out
+output*.ipynb
+*.txt

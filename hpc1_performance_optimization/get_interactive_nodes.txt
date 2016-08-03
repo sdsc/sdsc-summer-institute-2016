@@ -1,0 +1,6 @@
+# Obtaining interactive node on Comet (one hour)
+salloc --nodes=1 --tasks-per-node=24 -t 01:00:00
+ssh comet-xx-xx # where comet-xx-xx is node name returned by salloc
+
+# Obtaining interactive node on Gordon (one hour)
+qsub -I -q normal -lnodes=1:ppn=16:native,walltime=1:00:00

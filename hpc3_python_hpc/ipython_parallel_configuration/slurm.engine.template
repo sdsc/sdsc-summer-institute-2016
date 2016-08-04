@@ -5,6 +5,7 @@
 #SBATCH -t  00:30:00
 #SBATCH --job-name ipython-engine
 #SBATCH --output ipc.engine-%J.out
+#SBATCH --reservation=SI2016D4Afternoon
 
 export PATH=/oasis/scratch/comet/zonca/temp_project/anaconda/bin:$PATH
 export PYTHONPATH=

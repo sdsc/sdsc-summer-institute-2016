@@ -10,7 +10,7 @@
 #SBATCH --ntasks-per-node=24
 #SBATCH --export=ALL
 ### Just if you have an existing reservation
-###SBATCH --reservation=SI2016D4Afternoon
+#SBATCH --reservation=SI2016D4Afternoon
 #SBATCH -t 04:00:00
 
 ## Case 1: use Comet Python Install

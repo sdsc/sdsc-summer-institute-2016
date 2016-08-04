@@ -21,4 +21,4 @@ export PATH=/oasis/scratch/comet/zonca/temp_project/anaconda/bin:$PATH
 export PYTHONPATH=
 
 ## Launch the notebook
-jupyter notebook
+jupyter notebook --no-browser --ip="*"

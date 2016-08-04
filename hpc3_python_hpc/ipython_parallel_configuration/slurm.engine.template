@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --nodes {n//24}
+#SBATCH --ntasks-per-node=24
+#SBATCH --partition=compute
+#SBATCH -t  00:30:00
+#SBATCH --job-name ipython-engine
+#SBATCH --output ipc.engine-%J.out
+
+export PATH=/oasis/scratch/comet/zonca/temp_project/anaconda/bin:$PATH
+export PYTHONPATH=
+
+which ipengine  
+srun ipengine
